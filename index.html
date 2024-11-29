@@ -124,53 +124,59 @@ src="https://www.facebook.com/tr?id=3760456034099253&ev=PageView&noscript=1"
     </div>
   </section>
 
-  <!-- Pricing Section -->
-  <section id="pricing" class="features">
-    <div class="container">
-      <h2 class="section-title">التسعير</h2>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <div class="pricing-header">
-            <h3>التجربة المجانية</h3>
-            <p class="pricing-duration">أيام <span dir="ltr" class="latin-text">3</span></p>
-          </div>
-          <p class="pricing-description">وصول  إلى جميع الميزات</p>
-          <a href="https://wa.me/p/8084558441643821/212664518122" target="_blank">
-            <button class="cta-button">
-              <i class="fab fa-whatsapp"></i>
-              اشترك الآن
-            </button>
-          </a>
+<!-- Pricing Section -->
+<section id="pricing" class="features">
+  <div class="container">
+    <h2 class="section-title">التسعير</h2>
+    <div class="pricing-grid">
+      <!-- Free Trial Plan -->
+      <div class="pricing-card">
+        <div class="pricing-header">
+          <h3>التجربة المجانية</h3>
+          <p class="pricing-duration">أيام <span dir="ltr" class="latin-text">3</span></p>
         </div>
-        <div class="pricing-card">
-          <div class="pricing-header">
-            <h3>الخطة الشهرية</h3>
-            <p class="pricing-duration">درهم/الشهر <span dir="ltr" class="latin-text">30</span></p>
-          </div>
-          <p class="pricing-description">إلغاء في أي وقت</p>
-          <a href="https://wa.me/p/9318474038185265/212664518122" target="_blank">
-            <button class="cta-button">
-              <i class="fab fa-whatsapp"></i>
-              اشترك الآن
-            </button>
-          </a>
+        <p class="pricing-description">وصول  إلى جميع الميزات</p>
+        <a href="https://wa.me/p/8084558441643821/212664518122" target="_blank">
+          <button class="cta-button" onclick="fbq('track', 'Lead', { content_name: 'Free Trial', value: 0 });">
+            <i class="fab fa-whatsapp"></i>
+            اشترك الآن
+          </button>
+        </a>
+      </div>
+      
+      <!-- Monthly Plan -->
+      <div class="pricing-card">
+        <div class="pricing-header">
+          <h3>الخطة الشهرية</h3>
+          <p class="pricing-duration">درهم/الشهر <span dir="ltr" class="latin-text">30</span></p>
         </div>
-        <div class="pricing-card">
-          <div class="pricing-header">
-            <h3>الخطة السنوية</h3>
-            <p class="pricing-duration">درهم/السنة <span dir="ltr" class="latin-text">240</span></p>
-          </div>
-          <p class="pricing-description">وفّر <span dir="ltr" class="latin-text">60</span> درهم</p>
-          <a href="https://wa.me/p/27779271255021459/212664518122" target="_blank">
-            <button class="cta-button">
-              <i class="fab fa-whatsapp"></i>
-              اشترك الآن
-            </button>
-          </a>
+        <p class="pricing-description">إلغاء في أي وقت</p>
+        <a href="https://wa.me/p/9318474038185265/212664518122" target="_blank">
+          <button class="cta-button" onclick="fbq('track', 'Lead', { content_name: 'Monthly Plan', value: 30 });">
+            <i class="fab fa-whatsapp"></i>
+            اشترك الآن
+          </button>
+        </a>
+      </div>
+
+      <!-- Yearly Plan -->
+      <div class="pricing-card">
+        <div class="pricing-header">
+          <h3>الخطة السنوية</h3>
+          <p class="pricing-duration">درهم/السنة <span dir="ltr" class="latin-text">240</span></p>
         </div>
+        <p class="pricing-description">وفّر <span dir="ltr" class="latin-text">60</span> درهم</p>
+        <a href="https://wa.me/p/27779271255021459/212664518122" target="_blank">
+          <button class="cta-button" onclick="fbq('track', 'Lead', { content_name: 'Yearly Plan', value: 240 });">
+            <i class="fab fa-whatsapp"></i>
+            اشترك الآن
+          </button>
+        </a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Testimonials Section -->
   <section id="testimonials" class="testimonials">
