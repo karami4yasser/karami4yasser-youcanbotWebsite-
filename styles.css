@@ -357,6 +357,12 @@ body {
   margin-bottom: 30px;
   color: #333;
 }
+.section-title-special {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
 
 .pricing-grid {
   display: grid;
@@ -433,6 +439,13 @@ body {
   .section-title {
     font-size: 2rem;
   }
+  .section-title-special {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+
 
   .pricing-card h3 {
     font-size: 1.6rem;
