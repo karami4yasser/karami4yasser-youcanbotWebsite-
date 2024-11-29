@@ -240,7 +240,7 @@ body {
 
 .cta-buttons {
   display: flex;
-  justify-content: center;
+  justify-content:flex-end;
   gap: 20px;
   flex-wrap: wrap; /* Ensures buttons wrap on smaller screens */
 }
@@ -292,8 +292,9 @@ body {
   }
 
   .cta-buttons {
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
+    justify-content: center;
   }
 }
 
